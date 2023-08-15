@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Result{% endblock %}
+{% block content %}
+    {% if result is not none: %}
+    <div class="contact-us">
+        <h1 style="text-align: center;">{{result}}</h1>
+        <input type=button value=Return>
+    </div>
+    {% endif %}
+{% endblock %}
